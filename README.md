@@ -6,7 +6,7 @@ To play this program, just 'play' the add-student-form.jsp page (assuming you ha
 
 Web Browser <=>  View (JSP pages) <=> Controller (Servlets) <=> (Helper)Database
 
-The browser requests information from the servlets which in turn fetches the data from the database and sends it to the JSP page which creates the HTML page on the fly. T
+The browser requests information from the servlets which in turn fetches the data from the database and sends it to the JSP page which creates the HTML page on the fly. 
 
 -	The JSP page consists of the add-student-form.jsp and the list-students.jsp in the web-inf WEB_CONTENT directory
 -	The Controller section of mvc is the studentcontroller.java class in the src file directory is the servlet and handles the underlying business logic
